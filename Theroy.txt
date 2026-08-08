@@ -39,3 +39,5 @@ Output:
 10
 
 The .5 is removed.
+
+types
