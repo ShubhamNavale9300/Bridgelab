@@ -1,0 +1,41 @@
+1. Implicit conversion — automatic
+
+Java automatically converts a smaller type → larger type.
+
+int a = 10;
+double b = a;
+
+Here:
+
+int → double
+
+Java does it automatically, so this is implicit conversion.
+
+Example:
+
+int a = 10;
+double b = a;
+
+System.out.println(b);  // 10.0
+2. Explicit conversion — you tell Java
+
+When converting a larger type → smaller type, you need to manually specify it using casting.
+
+double a = 10.5;
+int b = (int) a;
+
+Here:
+
+double → int
+
+We explicitly tell Java:
+
+(int)
+
+So this is explicit conversion.
+
+Output:
+
+10
+
+The .5 is removed.
